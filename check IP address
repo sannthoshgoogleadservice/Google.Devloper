@@ -22,4 +22,4 @@ paragraph = soup('p')[3]
 # Remove html tags using regex.
 geo_txt = re.sub(r'<.*?>', '', str(paragraph))
 print geo_txt[32:].strip()
-This script is copied from t
+
